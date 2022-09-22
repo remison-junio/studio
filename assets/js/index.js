@@ -16,7 +16,7 @@ const footer = document.querySelector('footer').addEventListener('click', fechar
 function responsividade() {
 	let width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
     if (width >= 992) {
-        fecharMenu();
+      fecharMenu();
     }
 }
 
@@ -37,11 +37,11 @@ function posicaoScroll() {
 	}
 
 	if(posicaoY === 0) {
-	 header.classList.remove('fixed');
+	  header.classList.remove('fixed');
 	}
 }
 
-document.addEventListener('scroll', posicaoScroll)
+document.addEventListener('scroll', posicaoScroll);
 
 //carousel 
 
